@@ -6,54 +6,48 @@
           "node": {
             "hostnames": {
               "manage": [
-                "node0"
+                "gke-kubecity-kube-pool-e5ddd71c-1vpr"
               ],
               "storage": [
-                "192.168.10.100"
+                "10.128.0.17"
               ]
             },
             "zone": 1
           },
           "devices": [
-            "/dev/vdb",
-            "/dev/vdc",
-            "/dev/vdd"
+            "/dev/sdb"
           ]
         },
         {
           "node": {
             "hostnames": {
               "manage": [
-                "node1"
+                "gke-kubecity-kube-pool-e5ddd71c-bdg1"
               ],
               "storage": [
-                "192.168.10.101"
+                "10.128.0.16"
               ]
             },
             "zone": 1
           },
           "devices": [
-            "/dev/vdb",
-            "/dev/vdc",
-            "/dev/vdd"
+            "/dev/sdb"
           ]
         },
         {
           "node": {
             "hostnames": {
               "manage": [
-                "node2"
+                "gke-kubecity-kube-pool-e5ddd71c-kf0f"
               ],
               "storage": [
-                "192.168.10.102"
+                "10.128.0.15"
               ]
             },
             "zone": 1
           },
           "devices": [
-            "/dev/vdb",
-            "/dev/vdc",
-            "/dev/vdd"
+            "/dev/sdb"
           ]
         }
       ]
